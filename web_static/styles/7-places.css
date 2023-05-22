@@ -7,7 +7,7 @@ section.places h1 {
     text-align:left;
 }
 
-section.places articles {
+section.places article {
     width:390px;
     padding:20px;
     margin:20px;
@@ -16,7 +16,7 @@ section.places articles {
     display:inline-block;
 }
 
-section.places articles h2 {
+section.places article h2 {
     font-size:30px;
     text-align:center;
 }
