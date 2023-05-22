@@ -1,0 +1,22 @@
+section.places {
+    text-align:center;
+}
+
+section.places h1 {
+    font-size:30px;
+    text-align:left;
+}
+
+section.places articles {
+    width:390px;
+    padding:20px;
+    margin:20px;
+    border:1px solid #FF5A5F;
+    border-radius:4px;
+    display:inline-block;
+}
+
+section.places articles h2 {
+    font-size:30px;
+    text-align:center;
+}
