@@ -1,5 +1,7 @@
 .places {
     text-align:center;
+    display:flex;
+    flex-wrap:wrap;
 }
 
 .places h1 {
@@ -38,6 +40,8 @@ div.price_by_night {
 
 div.information {
     height:80px;
+    display:flex;
+    flex-wrap:wrap;
     border-top:1px solid #DDDDDD;
     border-bottom:1px solid #DDDDDD;
 }
@@ -95,5 +99,71 @@ div.user {
 div.description {
     margin-top:10px;
     margin-bottom:10px;
+    text-align:left;
+}
+
+.places .amenities ul {
+	list-style:none;
+	justify-content:left;
+	padding:0;
+    display:flex;
+    flex-direction:column;
+}
+
+.places .amenities ul li {
+	background-size:20px;
+	padding-left:30px;
+	padding-bottom:0px;
+	background-repeat:no-repeat;
+	text-align:left;
+    font-size:14px;
+}
+
+.tv {
+    background-image:url(../images/icon_tv.png);
+}
+
+.wifi {
+	background-image:url(../images/icon_wifi.png);
+}
+
+.pets {
+    background-image:url(../images/icon_pets.png);
+}
+
+.places, 
+.reviews h2 {
+    font-size:16px;  
+    padding:45% 0 5% 0;
+    padding-bottom:2%;
+    border-bottom:1px solid #DDDDDD;
+    text-align:left;
+}
+
+.places,
+.reviews ul {
+	text-align:left;
+	list-style:none;
+	padding:0;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+}
+
+.places,
+.reviews ul li {
+	background-size:20px;
+	font-size:14px;
+	margin-top:0;
+	padding-left:0px;
+    text-align:left;
+    margin-bottom:-15px;
+}
+
+.places,
+.reviews ul li p {
+    font-size:12px;
+	padding-bottom:5%;
+	margin-top:0px;
     text-align:left;
 }

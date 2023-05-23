@@ -1,13 +1,13 @@
-section.places {
+.places {
     text-align:center;
 }
 
-section.places h1 {
+.places h1 {
     font-size:30px;
     text-align:left;
 }
 
-section.places article {
+article {
     width:390px;
     padding:20px;
     margin:20px;
@@ -16,7 +16,7 @@ section.places article {
     display:inline-block;
 }
 
-section.places article h2 {
+.places article h2 {
     font-size:30px;
     text-align:center;
 }
